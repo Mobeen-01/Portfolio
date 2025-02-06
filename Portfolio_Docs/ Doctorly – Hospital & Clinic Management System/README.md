@@ -37,5 +37,6 @@ Doctorly **enhances operational efficiency and improves patient care** by **redu
 - **Deployment**: Optimized for desktop, tablet, and mobile
 
 ## 📂 Attached:
-PDF with demo images showcasing the UI design, along with the database work I contributed to, and how the frontend integrates with the backend functionalities (excluding the actual code due to company project confidentiality).
+**Doctorly – Hospital & Clinic Management System.pdf** showcasing the UI design, along with the database work I contributed to, and how the frontend integrates with the backend functionalities (excluding the actual code due to company project confidentiality).  
+
 
