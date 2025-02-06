@@ -39,4 +39,6 @@ Doctorly **enhances operational efficiency and improves patient care** by **redu
 ## 📂 Attached:
 **Doctorly – Hospital & Clinic Management System.pdf** showcasing the UI design, along with the database work I contributed to, and how the frontend integrates with the backend functionalities (excluding the actual code due to company project confidentiality).  
 
+📌 **Note:** Please **download the PDF** to get a **better view**. It might show an **error while rendering within GitHub**. Sorry for the inconvenience!  
+
 
