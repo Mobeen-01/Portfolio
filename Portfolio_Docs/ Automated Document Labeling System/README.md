@@ -1,7 +1,6 @@
 # AI-Powered Document Classification System  
 
-<div align="center">
-
+<div style="display: flex; gap: 10px;">
 [![Laravel](https://img.shields.io/badge/Laravel-Backend-red.svg?style=flat&logo=laravel)](https://laravel.com)  
 [![Python](https://img.shields.io/badge/Python-ML%20%26%20OCR-blue.svg?style=flat&logo=python)](https://www.python.org)  
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)  
