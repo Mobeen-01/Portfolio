@@ -1,9 +1,11 @@
 # Facilitation Centre Ticketing System
 
-[![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange.svg?style=flat&logo=postman)](https://www.postman.com)  
-[![PHP Laravel](https://img.shields.io/badge/PHP%20Laravel-8.2+-blue.svg?style=flat&logo=laravel)](https://laravel.com)  
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-12.x-blue.svg?style=flat&logo=postgresql)](https://www.postgresql.org)  
-[![JWT Authentication](https://img.shields.io/badge/JWT-Authentication-green.svg?style=flat&logo=json-web-tokens)](https://jwt.io)
+<div style="display: flex; gap: 10px;">
+  <a href="https://www.postman.com"><img src="https://img.shields.io/badge/Postman-API%20Testing-orange.svg?style=flat&logo=postman" alt="Postman Badge" /></a>
+  <a href="https://laravel.com"><img src="https://img.shields.io/badge/PHP%20Laravel-8.2+-blue.svg?style=flat&logo=laravel" alt="Laravel Badge" /></a>
+  <a href="https://www.postgresql.org"><img src="https://img.shields.io/badge/PostgreSQL-12.x-blue.svg?style=flat&logo=postgresql" alt="PostgreSQL Badge" /></a>
+  <a href="https://jwt.io"><img src="https://img.shields.io/badge/JWT-Authentication-green.svg?style=flat&logo=json-web-tokens" alt="JWT Badge" /></a>
+</div>
 
 ## Introduction
 
