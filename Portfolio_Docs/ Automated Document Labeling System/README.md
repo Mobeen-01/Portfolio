@@ -1,11 +1,11 @@
 # AI-Powered Document Classification System  
 
 <div style="display: flex; gap: 10px;">
-[![Laravel](https://img.shields.io/badge/Laravel-Backend-red.svg?style=flat&logo=laravel)](https://laravel.com)  
-[![Python](https://img.shields.io/badge/Python-ML%20%26%20OCR-blue.svg?style=flat&logo=python)](https://www.python.org)  
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange.svg?style=flat&logo=tensorflow)](https://www.tensorflow.org)  
-[![OCR](https://img.shields.io/badge/OCR-Text%20Extraction-yellow.svg?style=flat)]()  
-[![REST API](https://img.shields.io/badge/REST%20API-Laravel%20%3C%3E%20Python-green.svg?style=flat)]()  
+<a href="https://laravel.com"><img src="https://img.shields.io/badge/Laravel-Backend-red.svg?style=flat&logo=laravel"></a>
+  <a href="https://www.python.org"><img src="https://img.shields.io/badge/Python-ML%20%26%20OCR-blue.svg?style=flat&logo=python"></a>
+  <a href="https://www.tensorflow.org"><img src="https://img.shields.io/badge/TensorFlow-Deep%20Learning-orange.svg?style=flat&logo=tensorflow"></a>
+  <a href="#"><img src="https://img.shields.io/badge/OCR-Text%20Extraction-yellow.svg?style=flat"></a>
+  <a href="#"><img src="https://img.shields.io/badge/REST%20API-Laravel%20%3C%3E%20Python-green.svg?style=flat"></a> 
 
 </div>
 
