@@ -1,8 +1,7 @@
 # Doctorly - Web App for Hospital & Clinic Operations
 
-
-[![Rasa](https://img.shields.io/badge/Rasa-3.x-purple.svg?style=flat&logo=rasa)](https://rasa.com)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat&logo=python)](https://www.python.org)
+[![PHP Laravel](https://img.shields.io/badge/PHP%20Laravel-11.x-blue.svg?style=flat&logo=laravel)](https://laravel.com)
+[![MySQL](https://img.shields.io/badge/MySQL-8.x-blue.svg?style=flat&logo=mysql)](https://www.mysql.com)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 
