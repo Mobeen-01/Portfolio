@@ -1,5 +1,13 @@
 # Doctorly - Web App for Hospital & Clinic Operations
 
+
+[![Rasa](https://img.shields.io/badge/Rasa-3.x-purple.svg?style=flat&logo=rasa)](https://rasa.com)
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat&logo=python)](https://www.python.org)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
+
+## Introduction
+
 Doctorly is a comprehensive web app designed to streamline hospital and clinic operations by managing doctors, patients, receptionists, and accountants. Built on PHP Laravel with MySQL, it ensures seamless handling of appointments, prescriptions, invoices, and medical records with a modern UI, role-based access, and powerful analytics.
 
 ## 📌 Key Features
@@ -29,10 +37,4 @@ Doctorly is a comprehensive web app designed to streamline hospital and clinic o
 
 ## 📂 Attached:
 PDF with demo images showcasing the UI design, along with the database work I contributed to, and how the frontend integrates with the backend functionalities (excluding the actual code due to company project confidentiality).
-
----
-
-[![Rasa](https://img.shields.io/badge/Rasa-3.x-purple.svg?style=flat&logo=rasa)](https://rasa.com)
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=flat&logo=python)](https://www.python.org)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
