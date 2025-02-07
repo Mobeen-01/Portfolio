@@ -78,21 +78,35 @@ for (let i = 0; i < selectItems.length; i++) {
 // filter variables
 const filterItems = document.querySelectorAll("[data-filter-item]");
 
+// const filterFunc = function (selectedValue) {
+
+//   for (let i = 0; i < filterItems.length; i++) {
+
+//     if (selectedValue === "all") {
+//       filterItems[i].classList.add("active");
+//     } else if (selectedValue === filterItems[i].dataset.category) {
+//       filterItems[i].classList.add("active");
+//     } else {
+//       filterItems[i].classList.remove("active");
+//     }
+
+//   }
+
+// }
+
 const filterFunc = function (selectedValue) {
-
   for (let i = 0; i < filterItems.length; i++) {
+    let category = filterItems[i].dataset.category.toLowerCase().trim();
+    let selected = selectedValue.replace("_", " ").toLowerCase().trim();
 
-    if (selectedValue === "all") {
-      filterItems[i].classList.add("active");
-    } else if (selectedValue === filterItems[i].dataset.category) {
+    if (selected === "all" || selected === category) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
     }
-
   }
+};
 
-}
 
 // add event in all filter button items for large screen
 let lastClickedBtn = filterBtn[0];
