@@ -129,11 +129,20 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
 
 // Blog#1
-$(document).ready(function() {
-      $(".toggle_btn").click(function() {
-        $(".more-text").toggle(); // Toggle visibility of the extra text
-        var currentText = $(".toggle_text").text();
-        $(".toggle_text").text(currentText === "Read More" ? "Read Less" : "Read More"); // Toggle button text
-        $(".arrow").html(currentText === "Read More" ? "&#9650;" : "&#9660;"); // Toggle arrow direction
-      });
-    });
+function toggleReadMore() {
+    var moreText = document.getElementById("more-text");
+    var btnText = document.querySelector(".toggle_text");
+    var arrowIcon = document.querySelector(".arrow i");
+
+    if (moreText.style.display === "none") {
+      moreText.style.display = "block";
+      btnText.innerHTML = "Show Less";
+      arrowIcon.classList.remove("fa-angle-down");
+      arrowIcon.classList.add("fa-angle-up");
+    } else {
+      moreText.style.display = "none";
+      btnText.innerHTML = "Show More";
+      arrowIcon.classList.remove("fa-angle-up");
+      arrowIcon.classList.add("fa-angle-down");
+    }
+  }
