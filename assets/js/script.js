@@ -122,3 +122,18 @@ for (let i = 0; i < navigationLinks.length; i++) {
     }
   });
 }
+
+
+
+
+
+
+// Blog#1
+$(document).ready(function() {
+      $(".toggle_btn").click(function() {
+        $(".more-text").toggle(); // Toggle visibility of the extra text
+        var currentText = $(".toggle_text").text();
+        $(".toggle_text").text(currentText === "Read More" ? "Read Less" : "Read More"); // Toggle button text
+        $(".arrow").html(currentText === "Read More" ? "&#9650;" : "&#9660;"); // Toggle arrow direction
+      });
+    });
