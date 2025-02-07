@@ -97,9 +97,11 @@ const filterItems = document.querySelectorAll("[data-filter-item]");
 const filterFunc = function (selectedValue) {
   for (let i = 0; i < filterItems.length; i++) {
     let category = filterItems[i].dataset.category.toLowerCase().trim();
-    let selected = selectedValue.replace("_", " ").toLowerCase().trim();
+    let selected = selectedValue.toLowerCase().trim();
 
-    if (selected === "all" || selected === category) {
+    console.log(`Category: ${category}, Selected: ${selected}`); // Debugging line
+
+    if (selected === "all" || category.includes(selected)) {
       filterItems[i].classList.add("active");
     } else {
       filterItems[i].classList.remove("active");
