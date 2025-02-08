@@ -15,21 +15,6 @@ Check out the live version of my portfolio: [Portfolio](https://mobeen-01.github
 ![Portfolio Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 ![Portfolio Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installation
-
-To install and run this portfolio locally, follow these steps:
-
-```bash
-git clone https://github.com/mobeen-01/Portfolio.git
-cd Portfolio
-open index.html
-```
 
 ## Contact
 
