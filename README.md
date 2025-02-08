@@ -10,12 +10,6 @@ This is a fully responsive personal portfolio website, compatible with all devic
 
 Check out the live version of my portfolio: [Portfolio](https://mobeen-01.github.io/Portfolio/#)
 
-## Demo
-
-![Portfolio Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![Portfolio Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
-
-
 ## Contact
 
 Feel free to connect with me:
