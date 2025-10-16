@@ -2392,8 +2392,55 @@
 
 
 
+  <!-- send mail  -->
 
+<!-- ✅ Include EmailJS SDK -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
+<script>
+  (function() {
+    // Initialize EmailJS with your public key
+    emailjs.init("mq2IwdweC9uCrGBAA");
+  })();
+
+  // Select form elements
+  const form = document.querySelector('[data-form]');
+  const inputs = Array.from(document.querySelectorAll('[data-form-input]'));
+  const btn = document.querySelector('[data-form-btn]');
+
+  // Enable/disable send button dynamically
+  function updateButtonState() {
+    const allFilled = inputs.every(i => i.value.trim() !== '');
+    btn.disabled = !allFilled;
+  }
+
+  inputs.forEach(i => i.addEventListener('input', updateButtonState));
+  updateButtonState();
+
+  // Form submission
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+    btn.disabled = true;
+    btn.innerHTML = '<ion-icon name="paper-plane"></ion-icon> <span>Sending...</span>';
+
+    // Send form using EmailJS
+    emailjs.sendForm('service_kujx8i2', 'template_l4s99r4', this)
+      .then(function() {
+        alert('✅ Message sent successfully! Thank you for reaching out.');
+        form.reset();
+        updateButtonState();
+      }, function(error) {
+        console.error('❌ EmailJS Error:', error);
+        alert('❌ Failed to send message. Check console for details or verify your EmailJS setup.');
+      })
+      .finally(() => {
+        btn.disabled = false;
+        btn.innerHTML = '<ion-icon name="paper-plane"></ion-icon> <span>Send Message</span>';
+      });
+  });
+</script>
+
+<!-- /send mail -->
 
   <!--
     - custom js link
